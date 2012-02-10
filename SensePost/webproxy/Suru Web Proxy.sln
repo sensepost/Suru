@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuruWebProxy", "SuruWebProxy.csproj", "{ECA6284F-8026-4042-B2C9-EBC01016AE7D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security Library", "..\..\3rd Party\seclib-1.0.0\seclib\Security Library.csproj", "{5BFA5A70-D384-4417-AFCC-5C744485A85F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{7D43EBBE-EDA3-47DD-8DE1-DD6F82970B35}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectName0 = \u0022$/Suru\u0020Web\u0020Proxy.root/Suru\u0020Web\u0020Proxy\u0022,\u0020CAAAAAAA
+		SccLocalPath0 = ..\\..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = SensePost\\webproxy\\
+		SolutionUniqueID = {2B0843EA-B982-4D38-B9D3-411F890DB817}
+		SccProjectUniqueName1 = ..\\..\\3rd\u0020Party\\seclib-1.0.0\\seclib\\Security\u0020Library.csproj
+		SccLocalPath1 = ..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 3rd\u0020Party\\seclib-1.0.0\\seclib\\
+		SccProjectUniqueName2 = Installer\\Installer.vdproj
+		SccLocalPath2 = ..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = SensePost\\webproxy\\Installer\\
+		SccProjectUniqueName3 = SuruWebProxy.csproj
+		SccLocalPath3 = ..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = SensePost\\webproxy\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ECA6284F-8026-4042-B2C9-EBC01016AE7D}.Debug.ActiveCfg = Debug|.NET
+		{ECA6284F-8026-4042-B2C9-EBC01016AE7D}.Debug.Build.0 = Debug|.NET
+		{ECA6284F-8026-4042-B2C9-EBC01016AE7D}.Release.ActiveCfg = Release|.NET
+		{ECA6284F-8026-4042-B2C9-EBC01016AE7D}.Release.Build.0 = Release|.NET
+		{5BFA5A70-D384-4417-AFCC-5C744485A85F}.Debug.ActiveCfg = Debug|.NET
+		{5BFA5A70-D384-4417-AFCC-5C744485A85F}.Debug.Build.0 = Debug|.NET
+		{5BFA5A70-D384-4417-AFCC-5C744485A85F}.Release.ActiveCfg = Release|.NET
+		{5BFA5A70-D384-4417-AFCC-5C744485A85F}.Release.Build.0 = Release|.NET
+		{7D43EBBE-EDA3-47DD-8DE1-DD6F82970B35}.Debug.ActiveCfg = Debug
+		{7D43EBBE-EDA3-47DD-8DE1-DD6F82970B35}.Debug.Build.0 = Debug
+		{7D43EBBE-EDA3-47DD-8DE1-DD6F82970B35}.Release.ActiveCfg = Release
+		{7D43EBBE-EDA3-47DD-8DE1-DD6F82970B35}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

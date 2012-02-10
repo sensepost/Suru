@@ -1,0 +1,13 @@
+../../../../../../../../etc/passwd	basic traversal for Unix
+/etc/passwd				direct file access - Unix
+/*					* for Unix
+../../../../../../../../*		traversal and star for Unix
+..\..\..\..\..\..\..\..\boot.ini	basic traversal for MS
+\boot.ini				direct file access for MS
+\*					* for MS
+..\..\..\..\..\..\..\..\*		traversal and star for MS
+<..\..\..\..\..\..\..\..\boot.ini	redirect + traversal for MS
+|..\..\..\..\..\..\..\..\boot.ini	piping + traversal for MS
+<../../../../../../../../etc/passwd	redirect + traversal for Unix
+|../../../../../../../../etc/passwd	piping + traversal for Unix
+

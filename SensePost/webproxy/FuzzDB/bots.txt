@@ -1,0 +1,20 @@
+ia_archiver	Alexa
+Mozilla/2.0 (compatible; Ask Jeeves/Teoma)	Ask.com/Teoma
+Baiduspider ( http://www.baidu.com/search/spider.htm)	Baidu Spider
+curl/7.13.1 (powerpc-apple-darwin8.0) libcurl/7.13.1 OpenSSL/0.9.7b zlib/1.2.2	cURL on Mac OS X / Darwin PPC (public)
+GameSpyHTTP/1.0	GameSpy HTTP (GameSpy)
+Gigabot/2.0	Gigabot
+Googlebot/2.1 (+http://www.google.com/bot.html)	Googlebot
+Mozilla/5.0 (compatible; googlebot/2.1; +http://www.google.com/bot.html)	Googlebot alternate
+Googlebot-Image/1.0	Googlebot-Image
+Mozilla/4.0 (compatible; grub-client-1.4.3; Crawl your own stuff with http://grub.org)	Grub(LookSmart)
+Mozilla/4.0 (compatible; grub-client-2.3)	Grub(LookSmart)
+Mozilla/3.0 (Slurp/si; slurp@inktomi.com; http://www.inktomi.com/slurp.html)	Inktomi Slurp
+msnbot/1.0 (+http://search.msn.com/msnbot.htm)	msnbot
+Scooter-3.2.EX	Scooter (AltaVista)
+W3C_Validator/1.432.2.10	W3C Validator
+Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0	W3C CSS Validator
+Wget/1.9	wget
+Mozilla/5.0 (compatible; Yahoo! Slurp;http://help.yahoo.com/help/us/ysearch/slurp)	Yahoo! Slurp
+Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html) Yahoo! Slurp
+Yahoo!-MMCrawler/3.x (mms dash mmcrawler dash support at yahoo dash inc dot com)	Yahoo!-MMCrawler

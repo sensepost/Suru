@@ -1,0 +1,356 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{ECA6284F-8026-4042-B2C9-EBC01016AE7D}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "suru.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WebProxy"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = '"C:\Program Files\Eziriz\.NET Reactor\Eziriz_Net_Reactor.exe" -q -protectiontype app -evaluationenable 1 -evaluationtype trial -time 14 -showloadingscreen 1 -messagetitle "Warning!" -icon "$(ProjectDir)Installer\Icons\suru.ico" -file "$(TargetPath)" -snagmessage "Suru Web Proxy needs a valid key to be executed without limitations! You have used [current_minutes_days] of [max_minutes_days] days trial period of this software!" -trialendmessage "Sorry, the evaluation period for Suru Web Proxy has expired.  Visit http://www.sensepost.com/research/suru for the latest version of Suru Web Proxy.  Exiting Suru Web Proxy."&#xd;&#xa;COPY /Y "$(TargetDir)$(TargetName)_Secure\$(TargetFileName)" "$(TargetDir)$(TargetFileName)"&#xd;&#xa;COPY /Y "$(TargetDir)$(TargetFileName)" "$(ProjectDir)"obj\$(ConfigurationName)\$(TargetFileName)"'
+                RootNamespace = "Org.Mentalis.Proxy"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = "Org.Mentalis.Proxy.WebProxy"
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "SHDocVw"
+                    Guid = "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "Security Library"
+                    Project = "{5BFA5A70-D384-4417-AFCC-5C744485A85F}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Interop.SHDocVw"
+                    AssemblyName = "Interop.SHDocVw"
+                    HintPath = "3rd Party\Interop.SHDocVw.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "Interop.MOZILLACONTROLLib"
+                    AssemblyName = "Interop.MOZILLACONTROLLib"
+                    HintPath = "Unsaved References\mozilla\Interop.MOZILLACONTROLLib.dll"
+                />
+                <Reference
+                    Name = "AxInterop.MOZILLACONTROLLib"
+                    AssemblyName = "AxInterop.MOZILLACONTROLLib"
+                    HintPath = "Unsaved References\mozilla\AxInterop.MOZILLACONTROLLib.dll"
+                />
+                <Reference
+                    Name = "Wildgrape.Aqua.Controls"
+                    AssemblyName = "Wildgrape.Aqua.Controls"
+                    HintPath = "Unsaved References\csharpcorner\Wildgrape.Aqua.Controls.dll"
+                />
+                <Reference
+                    Name = "DotNetSkin.SkinControls"
+                    AssemblyName = "DotNetSkin.SkinControls"
+                    HintPath = "Unsaved References\csharpcorner\DotNetSkin.SkinControls.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AutoGroup.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AutoGroup.resx"
+                    DependentUpon = "AutoGroup.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DeleteCache.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Disclaimer.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Disclaimer.resx"
+                    DependentUpon = "Disclaimer.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ExtendedTreeNode.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FilterForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FilterForm.resx"
+                    DependentUpon = "FilterForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "reqEdit.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "reqEdit.resx"
+                    DependentUpon = "reqEdit.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "showresults.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "showresults.resx"
+                    DependentUpon = "showresults.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "suru.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebProxy.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebProxy.resx"
+                    DependentUpon = "WebProxy.cs"
+                    SubType = "Code"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Mentalis\AuthBase.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\AuthenticationList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\AuthNone.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\AuthUserPass.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\Client.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\ConsoleAttributes.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\FtpClient.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\FtpDataConnection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\FtpListener.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\HttpClient.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\HttpListener.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\Listener.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\PortMapClient.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\PortMapListener.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\Proxy.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\ProxyConfig.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\Socks4Handler.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\Socks5Handler.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\SocksClient.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\SocksHandler.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mentalis\SocksListener.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Resources\disclaimer.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\suru.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Unsaved References\csharpcorner\DotNetSkin.SkinControls.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Unsaved References\csharpcorner\Wildgrape.Aqua.Controls.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Unsaved References\mozilla\AxInterop.MOZILLACONTROLLib.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Unsaved References\mozilla\Interop.MOZILLACONTROLLib.dll"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

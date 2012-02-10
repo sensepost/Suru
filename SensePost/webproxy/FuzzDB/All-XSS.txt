@@ -1,0 +1,2 @@
+<script>window.alert('test');</script>	basic XSS test with pop-up
+<h1>testXSS</h1>			basic XSS test with header1

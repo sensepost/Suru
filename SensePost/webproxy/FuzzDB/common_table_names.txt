@@ -1,0 +1,93 @@
+##
+## Below is from
+##http://www.dbazine.com/db2/db2-disarticles/pelzer4
+##
+ALL_TABLES			Oracle default table
+SYSTABLES			Informix,cloudscape default table
+SYSCAT.TABLES			DB2 default table
+IITABLES			Ingress default table
+INFORMATION_SCHEMA.TABLES	Mimer default table
+pg_class			Postgress default table
+DOMAIN.TABLE			SAP default table
+MASTER..SYSOBJECTS		Microsoft SQL default table
+SYSOBJECTS			Sybase default table
+mysql.db			Mysql default table
+##
+user
+User
+users
+Users
+USER
+USERS
+username
+usernames
+Username
+Usernames
+USERNAME
+USERNAMES
+Profile
+profile
+Profiles
+profiles
+PROFILE
+PROFILES
+subscriber
+subscribers
+Subscriber
+Subscribers
+SUBSCRIBER
+SUBSCRIBERS
+password
+passwords
+Password
+Passwords
+PASSWORD
+PASSWORDS
+admin
+admins
+Admin
+Admins
+ADMIN
+ADMINS
+visitor
+visitors
+Visitor
+Visitors
+VISITOR
+VISITORS
+news
+News
+NEWS
+article
+articles
+Article
+Articles
+ARTICLE
+ARTICLES
+ticker
+tickers
+Ticker
+Tickers
+TICKER
+TICKERS
+ticket
+tickets
+Ticket
+Tickets
+TICKET
+TICKETS
+cart
+carts
+Cart
+Carts
+CART
+CARTS
+temp
+Temp
+TEMP
+customer
+customers
+Customer
+Customers
+CUSTOMER
+CUSTOMERS

@@ -1,0 +1,8 @@
+|dir	piping - MS
+<dir	redirection - MS
+;dir	tying - MS
+&dir	tying 2 - MS
+|ls	piping - Unix
+<ls	redirection - Unix
+;ls	tying - Unix
+&ls	typing2 - Unix
